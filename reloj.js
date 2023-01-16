@@ -45,7 +45,6 @@ days = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábad
       $('.hour').append('<span style="transform: rotate('+ 30 * s +'deg) translateX(100px)">'+s+'</span>')
     }
   
-  
   setInterval(getTime, 1000);
   getTime();
   
