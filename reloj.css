@@ -306,3 +306,13 @@ margin: auto;
 display: flex;
 justify-content: space-between;
 }
+
+* {
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
